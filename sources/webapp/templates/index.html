@@ -32,6 +32,18 @@
             $(".notes").prepend(response.note);
             $("#form").trigger("reset")
         })
+    $(".delete_button").on("click", function (e){
+        e.stopPropagation()
+        const pk = $(this)[0].dataset.deletebtnid
+        $.ajax({
+            url: "{% url "note_details" 0 %}".replace("0", pk),
+            method: "delete",
+            beforeSend: function(request){
+                request.setRequestHeader("X-CSRFToken", "{{ csrf_token }}")
+            }
+        })
+        $(this).parent().parent().remove()
+    })
     });
 
 </script>
