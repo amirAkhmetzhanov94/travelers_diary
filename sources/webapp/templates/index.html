@@ -14,10 +14,25 @@
             url: "{% url "notes_list" %}",
             method: "get"
         });
-        console.log(response.notes)
         response.notes.forEach(note => {
             $(".notes").append(note);
         });
+    $("#form").on("submit", async function (e) {
+            e.preventDefault();
+            const response = await $.ajax({
+                method: "post",
+                url: {% url "notes_list" %},
+                data: {
+                    csrfmiddlewaretoken: "{{ csrf_token }}",
+                    country: $("#country").val(),
+                    visit_date: $("#date").val(),
+                    text: $("#text").val()
+                }
+            });
+            $(".notes").prepend(response.note);
+            $("#form").trigger("reset")
+        })
     });
+
 </script>
 {% endblock %}
