@@ -1,0 +1,93 @@
+[
+{
+  "model": "webapp.diary",
+  "pk": 1,
+  "fields": {
+    "country": "Kazakhstan",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit posuere lorem vel consequat. Cras semper consequat magna, id tristique purus fermentum nec. Nam tincidunt, lacus quis rutrum venenatis, nibh libero eleifend risus, sed interdum ligula ex id mauris. Mauris ac eros dapibus, euismod nibh a, semper justo. Duis aliquam quam at tincidunt iaculis. Ut a ligula tellus. Nullam eu dapibus arcu, a interdum nunc. Nulla est nulla, tristique id est sed, hendrerit vulputate ligula.\r\n\r\nCras posuere dolor malesuada urna condimentum, tristique ornare lectus efficitur. Mauris a leo faucibus, vehicula nisi vel, bibendum nunc. Morbi nec eros ligula. Curabitur maximus nisl sit amet venenatis consequat. Nulla id magna ac arcu egestas posuere. Praesent feugiat est eget erat varius luctus. Maecenas nec eros quis quam aliquet sodales et eget nisl. Aliquam vulputate rutrum eleifend. Sed et nulla porttitor mi consectetur sollicitudin a sit amet urna. Mauris sed nisl vel lacus dictum pellentesque. Vestibulum vitae nibh vel mauris dapibus varius. Etiam dignissim justo et dui euismod condimentum. Mauris ac venenatis mi, quis imperdiet sem.",
+    "visit_date": "2021-11-29",
+    "create_time": "2021-11-29T06:15:08.420Z",
+    "edit_time": "2021-11-29T06:15:08.420Z"
+  }
+},
+{
+  "model": "webapp.diary",
+  "pk": 2,
+  "fields": {
+    "country": "Russia",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit posuere lorem vel consequat. Cras semper consequat magna, id tristique purus fermentum nec. Nam tincidunt, lacus quis rutrum venenatis, nibh libero eleifend risus, sed interdum ligula ex id mauris. Mauris ac eros dapibus, euismod nibh a, semper justo. Duis aliquam quam at tincidunt iaculis. Ut a ligula tellus. Nullam eu dapibus arcu, a interdum nunc. Nulla est nulla, tristique id est sed, hendrerit vulputate ligula.\r\n\r\nCras posuere dolor malesuada urna condimentum, tristique ornare lectus efficitur. Mauris a leo faucibus, vehicula nisi vel, bibendum nunc. Morbi nec eros ligula. Curabitur maximus nisl sit amet venenatis consequat. Nulla id magna ac arcu egestas posuere. Praesent feugiat est eget erat varius luctus. Maecenas nec eros quis quam aliquet sodales et eget nisl. Aliquam vulputate rutrum eleifend. Sed et nulla porttitor mi consectetur sollicitudin a sit amet urna. Mauris sed nisl vel lacus dictum pellentesque. Vestibulum vitae nibh vel mauris dapibus varius. Etiam dignissim justo et dui euismod condimentum. Mauris ac venenatis mi, quis imperdiet sem.",
+    "visit_date": "2021-11-03",
+    "create_time": "2021-11-29T06:15:20.437Z",
+    "edit_time": "2021-11-29T06:15:20.437Z"
+  }
+},
+{
+  "model": "webapp.diary",
+  "pk": 3,
+  "fields": {
+    "country": "Turkey",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit posuere lorem vel consequat. Cras semper consequat magna, id tristique purus fermentum nec. Nam tincidunt, lacus quis rutrum venenatis, nibh libero eleifend risus, sed interdum ligula ex id mauris. Mauris ac eros dapibus, euismod nibh a, semper justo. Duis aliquam quam at tincidunt iaculis. Ut a ligula tellus. Nullam eu dapibus arcu, a interdum nunc. Nulla est nulla, tristique id est sed, hendrerit vulputate ligula.\r\n\r\nCras posuere dolor malesuada urna condimentum, tristique ornare lectus efficitur. Mauris a leo faucibus, vehicula nisi vel, bibendum nunc. Morbi nec eros ligula. Curabitur maximus nisl sit amet venenatis consequat. Nulla id magna ac arcu egestas posuere. Praesent feugiat est eget erat varius luctus. Maecenas nec eros quis quam aliquet sodales et eget nisl. Aliquam vulputate rutrum eleifend. Sed et nulla porttitor mi consectetur sollicitudin a sit amet urna. Mauris sed nisl vel lacus dictum pellentesque. Vestibulum vitae nibh vel mauris dapibus varius. Etiam dignissim justo et dui euismod condimentum. Mauris ac venenatis mi, quis imperdiet sem.",
+    "visit_date": "2021-10-06",
+    "create_time": "2021-11-29T06:15:29.110Z",
+    "edit_time": "2021-11-29T06:15:29.110Z"
+  }
+},
+{
+  "model": "webapp.diary",
+  "pk": 4,
+  "fields": {
+    "country": "USA",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit posuere lorem vel consequat. Cras semper consequat magna, id tristique purus fermentum nec. Nam tincidunt, lacus quis rutrum venenatis, nibh libero eleifend risus, sed interdum ligula ex id mauris. Mauris ac eros dapibus, euismod nibh a, semper justo. Duis aliquam quam at tincidunt iaculis. Ut a ligula tellus. Nullam eu dapibus arcu, a interdum nunc. Nulla est nulla, tristique id est sed, hendrerit vulputate ligula.\r\n\r\nCras posuere dolor malesuada urna condimentum, tristique ornare lectus efficitur. Mauris a leo faucibus, vehicula nisi vel, bibendum nunc. Morbi nec eros ligula. Curabitur maximus nisl sit amet venenatis consequat. Nulla id magna ac arcu egestas posuere. Praesent feugiat est eget erat varius luctus. Maecenas nec eros quis quam aliquet sodales et eget nisl. Aliquam vulputate rutrum eleifend. Sed et nulla porttitor mi consectetur sollicitudin a sit amet urna. Mauris sed nisl vel lacus dictum pellentesque. Vestibulum vitae nibh vel mauris dapibus varius. Etiam dignissim justo et dui euismod condimentum. Mauris ac venenatis mi, quis imperdiet sem.",
+    "visit_date": "2021-11-04",
+    "create_time": "2021-11-29T06:15:37.266Z",
+    "edit_time": "2021-11-29T06:15:37.266Z"
+  }
+},
+{
+  "model": "webapp.diary",
+  "pk": 5,
+  "fields": {
+    "country": "Finland",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum suscipit posuere lorem vel consequat. Cras semper consequat magna, id tristique purus fermentum nec. Nam tincidunt, lacus quis rutrum venenatis, nibh libero eleifend risus, sed interdum ligula ex id mauris. Mauris ac eros dapibus, euismod nibh a, semper justo. Duis aliquam quam at tincidunt iaculis. Ut a ligula tellus. Nullam eu dapibus arcu, a interdum nunc. Nulla est nulla, tristique id est sed, hendrerit vulputate ligula.\r\n\r\nCras posuere dolor malesuada urna condimentum, tristique ornare lectus efficitur. Mauris a leo faucibus, vehicula nisi vel, bibendum nunc. Morbi nec eros ligula. Curabitur maximus nisl sit amet venenatis consequat. Nulla id magna ac arcu egestas posuere. Praesent feugiat est eget erat varius luctus. Maecenas nec eros quis quam aliquet sodales et eget nisl. Aliquam vulputate rutrum eleifend. Sed et nulla porttitor mi consectetur sollicitudin a sit amet urna. Mauris sed nisl vel lacus dictum pellentesque. Vestibulum vitae nibh vel mauris dapibus varius. Etiam dignissim justo et dui euismod condimentum. Mauris ac venenatis mi, quis imperdiet sem.",
+    "visit_date": "2021-11-22",
+    "create_time": "2021-11-29T06:15:49.654Z",
+    "edit_time": "2021-11-29T06:15:49.654Z"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$AQt0QFsbQlOA55niPSDLRe$Zf+DmPUWuMogt7+0AX2aDm5yemeN/iYjmYk0GWSHDjM=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "python_dev",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@admin.py",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-11-29T05:35:48.189Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$6y1RRoYnC9jPE6U88aDIQU$V1H+6bLq/WlbFh99E46qRLxIbKE68ORhLqVhCbHxP0o=",
+    "last_login": "2021-11-29T05:38:44.981Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@admin.ru",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-11-29T05:36:32.516Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
