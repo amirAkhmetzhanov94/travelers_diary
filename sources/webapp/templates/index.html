@@ -32,7 +32,7 @@
             $(".notes").prepend(response.note);
             $("#form").trigger("reset")
         })
-    $(".delete_button").on("click", function (e){
+    $(".notes").on("click", ".delete_button", function (e){
         e.stopPropagation()
         const pk = $(this)[0].dataset.deletebtnid
         $.ajax({
@@ -44,7 +44,7 @@
         })
         $(this).parent().parent().remove()
     })
-     $(".edit_button").on("click", function (e) {
+     $(".notes").on("click", ".edit_button", function (e) {
             e.stopPropagation()
             const noteTextElem = $(this).parent().next().find("span.text")
             const noteText = noteTextElem.text()
