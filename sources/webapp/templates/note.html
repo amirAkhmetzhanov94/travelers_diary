@@ -1,11 +1,11 @@
 {% load static %}
 <div class="card mt-5">
     <div class="card-header">
-        Post #{{ note.pk }} at {{ note.visit_date }} being in: {{ note.country }} <i class="bi bi-flag-fill"></i>
+        <span class="note_header">Post #{{ note.pk }} at {{ note.visit_date }} being in: {{ note.country }} <i class="bi bi-flag-fill"></i></span>
         <button class="btn btn-link ml-3 delete_button" data-deleteBtnId="{{ note.pk }}" style="float: right">Delete</button>
-        <button class="btn btn-link edit_button" data-editBtnID="{{ note.pk }}" style="float: right">Edit</button>
+        <button class="btn btn-link edit_button" data-editBtnID="{{ note.pk }}" style="float: right; display: block">Edit</button>
     </div>
     <div class="card-body">
-        {{ note.text }}
+        <span class="text">{{ note.text }}</span>
     </div>
 </div>

@@ -44,7 +44,42 @@
         })
         $(this).parent().parent().remove()
     })
-    });
+     $(".edit_button").on("click", function (e) {
+            e.stopPropagation()
+            const noteTextElem = $(this).parent().next().find("span.text")
+            const noteText = noteTextElem.text()
+            const note_id = $(this)[0].dataset.editbtnid
+            const card_body = $(this).parent().next()
+            const noteInput = $(`
+                <textarea class="note_text form-control" name="text"></textarea>
+                <button class="send_edits btn btn-primary btn-sm mt-3">Send</button>
+            `)
+            const edit_button = $(this)
+            noteTextElem.remove()
+            noteInput.val(noteText);
+            $(this).parent().next().prepend(noteInput)
+            edit_button.toggle()
 
+             $(".send_edits").on("click", async function (e) {
+               e.stopPropagation()
+               $.ajax({
+                    url: "{% url "note_details" 0 %}".replace("0", note_id),
+                    method: "put",
+                    beforeSend: function (request) {
+                        request.setRequestHeader("X-CSRFToken", "{{ csrf_token }}")
+                    },
+                    data: {
+                        text: noteInput.val(),
+                        csrfmiddlewaretoken: "{{ csrf_token }}",
+                    }
+                })
+                const new_note_text_elem = $(`
+                <span class="text">${noteInput.val()}</span>`);
+                noteInput.remove();
+                card_body.append(new_note_text_elem);
+                edit_button.toggle()
+             })
+        });
+    });
 </script>
 {% endblock %}
