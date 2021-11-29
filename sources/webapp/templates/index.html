@@ -1,14 +1,23 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block title %}Main Page{% endblock %}
 
-{% block content %}
-    <div class="card mt-5">
-        <div class="card-header">
-            Featured
-        </div>
-        <div class="card-body">
-            This is some text within a card body.
-        </div>
-    </div>
+{% block notes %}
+
+{% endblock %}
+
+{% block script %}
+<script>
+    $(async function () {
+        const response = await $.ajax({
+            url: "{% url "notes_list" %}",
+            method: "get"
+        });
+        console.log(response.notes)
+        response.notes.forEach(note => {
+            $(".notes").append(note);
+        });
+    });
+</script>
 {% endblock %}

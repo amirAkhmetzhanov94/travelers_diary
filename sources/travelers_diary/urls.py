@@ -19,5 +19,6 @@ from webapp import views as webview
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', webview.IndexView.as_view(), name="index")
+    path('', webview.IndexView.as_view(), name="index"),
+    path('notes-list/', webview.NotesListView.as_view(), name="notes_list")
 ]
